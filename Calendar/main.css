@@ -1,0 +1,34 @@
+#kalendar {
+    border: 4px solid darkblue;
+    border-collapse: collapse;
+}
+
+
+#kalendar thead tr th {
+    font-size: 10pt;
+    background-color: #57a;
+    color: #ffffff;
+}
+#kalendar tbody tr td {
+    border: 1px dashed #57a;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 9pt;
+    text-align: right;
+    vertical-align: top;
+}
+.kalendar tbody tr:nth-child(odd) td {
+    background-color: #eeeded;
+}
+#kalendar tbody tr td:last-child {
+    background-color: rgb(247, 150, 133);
+}
+#kalendar tbody tr td:nth-child(6) {
+    background-color: rgb(187, 187, 187);
+}
+
+.current-day {
+    background-color: #dc0000;
+    color: white;
+}
